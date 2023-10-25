@@ -10,3 +10,10 @@ process.argv returns a list
 ]
 
 */
+
+const [, , n]=process.argv;
+console.log(n);
+
+const [, , a,b] = process.argv;
+
+console.log(a,b);
